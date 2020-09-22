@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // alert("hello")
+    // var res=prompt("Enter a number")
+    var square=0;
+    var cube=0;
+    var myTable="<h1 style='text-align: center'>Square and cube</h1>"
+    myTable +="<table border='1' width='40%', align='center'><tr><td>No</td><td>Suare</td><td>cube</td></tr>";
+    for(var i=0; i<=10; i++)
+
+        {
+            square=i*i;
+            cube=i*i*i;
+            myTable +="<tr><td>"+i+"</td><td>"+square+"</td><td>"+cube+"</td></tr>";
+        }
+    myTable +="</table>"
+    document.write(myTable)
+</script>
+</body>
+</html>

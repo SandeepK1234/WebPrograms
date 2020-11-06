@@ -1,0 +1,18 @@
+h1 {color:green;font-size:50px;}
+h2 {display:block;margin-left:40px;color:orange;font-size:40px;}
+label{
+    display: block;
+    margin-left: 30px;
+    color: blue;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+USN,NAME,COLLEGE,BRANCH,YEAR,EMAIL{
+    color: red;
+}
+email{
+    text-transform: lowercase;
+}
+student_info{
+    background-color: yellow;
+}

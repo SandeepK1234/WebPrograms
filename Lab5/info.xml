@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="prg5.css"?>
+<!DOCTYPE student_info [
+        <!ELEMENT student_info (h1,h2+,label+)>
+        <!ELEMENT h1 (#PCDATA)>
+        <!ELEMENT h2 (#PCDATA)>
+        <!ELEMENT label (#PCDATA|usn|name|col|branch|year|email)*>
+        <!ELEMENT ad (label)>
+        <!ELEMENT usn (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT col (#PCDATA)>
+        <!ELEMENT branch (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        ]>
+
+<student_info>
+    <h1>Student information</h1>
+
+    <h2>Student1</h2>
+    <label>USN:<usn>4SO17CS092</usn></label>
+    <label>NAME:<name>Abc</name></label>
+    <label>COLLEGE:<col>SJEC</col></label>
+    <label>BRANCH:<branch>CSE</branch></label>
+    <label>YEAR:<year>2015</year></label>
+    <label>EMAIL:<email>abc@gmail.com</email></label>
+
+    <h2>Student2</h2>
+    <label>USN:<usn>4SO17CS093</usn></label>
+    <label>NAME:<name>Efg</name></label>
+    <label>COLLEGE:<col>SJEC</col></label>
+    <label>BRANCH:<branch>CSE</branch></label>
+    <label>YEAR:<year>2016</year></label>
+    <label>EMAIL:<email>efg@gmail.com</email></label>
+
+    <h2>Student3</h2>
+    <label>USN:<usn>4SO17CS094</usn></label>
+    <label>NAME:<name>Hij</name></label>
+    <label>COLLEGE:<col>SJEC</col></label>
+    <label>BRANCH:<branch>CSE</branch></label>
+    <label>YEAR:<year>2017</year></label>
+    <label>EMAIL:<email>hij@gmail.com</email></label>
+</student_info>
+
+
